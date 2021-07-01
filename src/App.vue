@@ -1,6 +1,6 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to YESEUL App" />
+  <HelloWorld msg="테스트 성공" />
 </template>
 
 <script>
