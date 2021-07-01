@@ -1,9 +1,9 @@
 # 산출물
 
-1.
+1. [듀얼부팅](#dual)
 2. [WSL2](#wsl2)
-3. [VirtualBox](#virtualbox)
-4. [AWS EC2](#aws-ec2)
+3. [가상머신](#virtualbox)
+4. [클라우드](#aws-ec2)
 
 ## AWS EC2
 
@@ -22,3 +22,8 @@
 - 통합(Storage, RDS 등과 통합)
 - 안정성
 - 보안(VPC와 함께 리소스 보안 및 네트워킹 기능 제공)
+
+##### 실행
+
+![ec2](ec2.PNG)
+![ec2-linux-server](ec2-linux-server.PNG)
