@@ -1,4 +1,4 @@
-1. [Vue CLI]](#vue-cli-프로젝트-기반-devops-개발환경-실습)
+1. [Vue CLI](#vue-cli-프로젝트-기반-devops-개발환경-실습)
 2. [Jenkins-docker를 활용한 CI/CD 구축](#jenkins-docker를-활용한-ci/cd-구축)
 3. [Github Actions와 Jenkins의 차이점](#github-actions와-jenkins의-차이점)
 
@@ -105,10 +105,10 @@ jobs:
 
 ![vue-site](./img/vue-site.JPG)
 
-<br>
-<br>
 # Jenkins-docker를 활용한 CI/CD 구축
+
 > :bulb: Jenkins-docker를 활용한 CI/CD 구축
+
 # 산출물
 
 ### 1. Docker로 Jenkins 설치
@@ -163,7 +163,6 @@ jobs:
   - 👉 pipeline syntax > snippet generotor > git: Git 선택 > 암호화 된 id를 포함한 pipeline script 생성
   - 👉 를 하면 해결될 줄 알았으나 안됨....😇
 
-<br>
-<br>
 # Github Actions와 Jenkins의 차이점
+
 > :bulb: Github Actions와 Jenkins의 차이점을 알아보자!
