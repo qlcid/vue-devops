@@ -38,4 +38,16 @@
     ![integration](./img/integration.PNG)
 
 - 3. Add Webhook 후 push 테스트
-     ![webhook-trigger-test](./img/webhook-trigger-test.PNG)
+  - ![webhook-trigger-test](./img/webhook-trigger-test.PNG)
+
+### c.f) 오류
+
+- webhook trigger test error
+  - 👉ngrok 사용
+- webhook 402 error
+  - docker toolbox를 사용할 경우 docker 머신의 ip와 localhost 주소가 다름
+  - 👉ngork을 사용하면서 포워딩 할 주소를 localhost가 아닌 docker 머신의 주소로 포워딩( ngrok http [url]:[port])
+    ![webhook-402-error](./img/webhook-402-error.PNG)
+- 파이프라인 credentialsId access denied error
+  - 👉 pipeline syntax > snippet generotor > git: Git 선택 > 암호화 된 id를 포함한 pipeline script 생성
+  - 👉 를 하면 해결될 줄 알았으나 안됨....😇
