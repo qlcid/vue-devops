@@ -4,8 +4,8 @@
 
 ### 2. 원격 저장소 설정 및 코드 푸시
 
-![devops-remote-repo-setting](./devops-remote-repo-setting.png)
-![devops-remote-repo-push](./devops-remote-repo-push.png)
+![devops-remote-repo-setting](./devops-remote-repo-setting.PNG)
+![devops-remote-repo-push](./devops-remote-repo-push.PNG)
 
 ### 3. Github Pages로 배포하기 위한 라이브러리 추가 & pagckage.json에 배포 관련 정보 추가
 
@@ -39,7 +39,7 @@ moduel.exports = {
 
 ### 5. yarn deploy 명령 실행
 
-![devops-yarn-deploy](./devops-yarn-deploy.png)
+![devops-yarn-deploy](./devops-yarn-deploy.PNG)
 
 - 원격 저장소에 gh-pages를 생성해 푸시함
 
@@ -93,7 +93,7 @@ jobs:
 
 ### 6-3. 변경된 내용 commit & push
 
-![devops-remote-repo-push](./devops-remote-repo-push.png)
+![devops-remote-repo-push](./devops-remote-repo-push.PNG)
 
 ### 6-4. 배포 완료된 Vue 프로젝트 사이트
 
